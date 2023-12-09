@@ -25,4 +25,4 @@ echo "upnp=${upnp}" >> server-config.conf
 echo "npcstream=${npcstream}" >> server-config.conf
 echo "priority=${priority}" >> server-config.conf;
 
-./tModLoaderServer.bin.x86_64 -config server-config.conf
+./start-tModLoaderServer.sh -config server-config.conf

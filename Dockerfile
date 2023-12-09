@@ -55,4 +55,4 @@ WORKDIR /home/tmod
 USER tmod
 
 
-ENTRYPOINT [ "./init-tModLoaderServer.sh" ]
+ENTRYPOINT [ "init-tModLoaderServer.sh" ]
